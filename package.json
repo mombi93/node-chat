@@ -1,9 +1,24 @@
-{	
-	"name": "node-chat",
-	"version": "0.0.1",
-	"description" : "simple multiroom chat server",
-	"dependencies" : {
-		"socket.io" : "~0.9.6",
-		"mime" : "~1.2.7"
-	}
+{
+  "name": "node-chat",
+  "version": "0.0.1",
+  "description": "simple multiroom chat server",
+  "dependencies": {
+    "socket.io": "~0.9.6",
+    "mime": "~1.2.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mombi93/node-chat.git"
+  },
+  "author": "Muhammad Rafdi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mombi93/node-chat/issues"
+  },
+  "homepage": "https://github.com/mombi93/node-chat#readme"
 }
